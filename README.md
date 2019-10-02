@@ -7,4 +7,4 @@ python use.py
 
 make sure the numbers have enough light and place the numbers inside the frame.
 
-![ex](https://github.com/ehanhalici/digital-number-ocr/example.mp4)
+![example](https://github.com/ehanhalici/digital-number-ocr/example.gif)
