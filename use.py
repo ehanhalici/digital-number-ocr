@@ -7,6 +7,7 @@ cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
 
 while 1==1:
     ret, frame = cap.read()
+    frame = cv2.resize(frame, (1920, 1080), interpolation=cv2.INTER_CUBIC)
     frame = findContour.find(frame)
     time.sleep(0.1)
     cv2.imshow("debugframe",frame)
